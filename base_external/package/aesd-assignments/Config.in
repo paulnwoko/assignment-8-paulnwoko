@@ -1,5 +1,5 @@
 config BR2_PACKAGE_AESD_ASSIGNMENTS
 	bool "aesd-assignments"
 	help
-	  Build and install aesdsocked server and init script.
+	  Build and install aesdsocket server and init script.
 	  Used to understand buildroot external trees and package builds.
