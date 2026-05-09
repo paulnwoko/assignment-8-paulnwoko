@@ -27,5 +27,5 @@ endef
 LDD_POST_INSTALL_TARGET_HOOKS += LDD_INSTALL_STAGING_CMDS
 
 $(eval $(kernel-module))
-$(eval $(autotools-package))
-#$(eval $(generic-package))
+#$(eval $(autotools-package))
+$(eval $(generic-package))
